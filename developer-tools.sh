@@ -14,7 +14,7 @@ rm -rf yay
 yay -S terminator --noconfirm --needed
 
 # Install vim
-yay -S vim --noconfirm --needed
+yay -S gvim --noconfirm --needed
 
 # Setup vim config
 get clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
@@ -31,6 +31,9 @@ yay -S visual-studio-code-bin --noconfirm --needed
 
 # Install htop
 yay -S htop --noconfirm --needed
+
+# Install concourse fly cli
+yay -S concourse-fly --noconfirm --needed
 
 # Install Docker
 yay -S docker --noconfirm --needed

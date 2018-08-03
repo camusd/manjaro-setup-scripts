@@ -114,5 +114,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-date
-chuck_cow
+echo -n ' ' && date && chuck_cow
