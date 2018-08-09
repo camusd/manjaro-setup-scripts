@@ -1,3 +1,8 @@
+# Character
+OPTIONS=role:Knight
+OPTIONS=race:Human
+OPTIONS=gender:male
+
 # Colored output
 OPTIONS=color
 
