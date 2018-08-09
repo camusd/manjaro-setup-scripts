@@ -12,3 +12,5 @@ yay -S cowsay --noconfirm --needed
 # Install fortune
 yay -S fortune-mod --noconfirm --needed
 
+# Install nethack
+yay -S nethack --noconfirm --needed

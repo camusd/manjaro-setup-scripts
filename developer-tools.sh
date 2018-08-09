@@ -45,3 +45,5 @@ yay -S docker-compose --noconfirm --needed
 sudo systemctl enable docker
 sudo systemctl start docker
 
+# Install minikube
+yay -S minikube --noconfirm --needed
