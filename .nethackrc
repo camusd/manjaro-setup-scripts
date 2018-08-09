@@ -1,0 +1,30 @@
+# Colored output
+OPTIONS=color
+
+# Automatically dig if wielding digging tool and moving
+# onto a place that can be dug
+OPTIONS=autodig
+
+# Walking into a door attempts to open it
+OPTIONS=autoopen
+
+# Automatically pick up stuff
+OPTIONS=autopickup
+
+# Only use autopickup for these item types
+OPTIONS=pickup_types:$!?/"=
+
+# Show out-of-sight areas of lit rooms
+OPTIONS=dark_room
+
+# Highlite pet
+OPTIONS=hilite_pet
+
+# Show experience
+OPTIONS=showexp
+
+# Show elapsed game time (in turns)
+OPTIONS=time
+
+# Change boulder symbol
+SYMBOLS=S_boulder:0
